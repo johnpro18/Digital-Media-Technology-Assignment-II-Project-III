@@ -7,6 +7,7 @@ public class CoinCollectibles : MonoBehaviour
 {
     [SerializeField] private int coinValue = 1;
     [SerializeField] private AudioClip audio;
+    [SerializeField] [Range(0f, 2f)] private float volume;
 
     public CoinsCounter coinsCounter;
     
