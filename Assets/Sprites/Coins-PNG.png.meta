@@ -102,7 +102,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Coins-PNG_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 394
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a34645e10464d14187114c335240d01
+      internalID: -1969440713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 394
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa617712e4e71d4fb2ec761fea80ca2
+      internalID: -341866930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 394
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fe9b20891d9e42a4d7e22609af658
+      internalID: 1029570436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 394
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a871f415e7fe4448924063ce9e4352
+      internalID: 1246410365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 393
+        width: 17
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16dc3b3c0351654da28c9be991a41c2
+      internalID: -555335093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 394
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0263b458c37bc8e458f2b9430012307c
+      internalID: -1260252715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 394
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3866bdbde545c4a9f98f8b8ad0121c
+      internalID: -822004360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 394
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212ec4683933d4747967997efccfe860
+      internalID: -988193723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a23c2c65ece1404e8c45a4aacea26ec
+      internalID: -1892689263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 228
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0614cd75825da6f4e96e88fcb22b606d
+      internalID: 2129728533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 228
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f48b013bbd7f8b469caf8f17055b335
+      internalID: -536704486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 228
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05108cf67a4bb3a47b81ea7ad582e115
+      internalID: 638833681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 227
+        width: 17
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a2724bbe4d7f144a5a341d20edad1c
+      internalID: 476235927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 228
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8ce16db9441874db93b1772f1e269e
+      internalID: -513613695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_14
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 228
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0543cf3c1d25942438a7c5b68ca2b05b
+      internalID: 1660889278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_15
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 228
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066529d28665f3a45b888bc9291d76bb
+      internalID: -1455507541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd84740062a70a849aa12bbc5f817999
+      internalID: -1717507494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 67
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f4d2dbb1d43246870915cec907ef2
+      internalID: -1281661683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 67
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ad11942c609744ba6604ba8927dc5e
+      internalID: -1250086677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 67
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af94ad22aa131f428b77f3ec977b5a1
+      internalID: -460966083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 66
+        width: 17
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba424a1a10f57245962ac2d7f1f1585
+      internalID: 2028105294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_21
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 67
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2825a64fbbf550340b011930eb7d91aa
+      internalID: -1999195705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 67
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800f3ebc2cf06b84083ad3645f63785a
+      internalID: 1927183183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coins-PNG_23
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 67
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad68aa07fb9cc3e449e4b915c33cb2bc
+      internalID: -194774395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -113,7 +617,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Coins-PNG_14: 1660889278
+      Coins-PNG_5: -1260252715
+      Coins-PNG_0: -1969440713
+      Coins-PNG_2: 1029570436
+      Coins-PNG_11: 638833681
+      Coins-PNG_9: 2129728533
+      Coins-PNG_1: -341866930
+      Coins-PNG_16: -1717507494
+      Coins-PNG_10: -536704486
+      Coins-PNG_15: -1455507541
+      Coins-PNG_18: -1250086677
+      Coins-PNG_23: -194774395
+      Coins-PNG_3: 1246410365
+      Coins-PNG_19: -460966083
+      Coins-PNG_6: -822004360
+      Coins-PNG_21: -1999195705
+      Coins-PNG_13: -513613695
+      Coins-PNG_12: 476235927
+      Coins-PNG_17: -1281661683
+      Coins-PNG_7: -988193723
+      Coins-PNG_8: -1892689263
+      Coins-PNG_20: 2028105294
+      Coins-PNG_22: 1927183183
+      Coins-PNG_4: -555335093
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
