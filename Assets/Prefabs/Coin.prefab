@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 553077399
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1969440713, guid: bb26d0acce435e44ebcebfa879b6e72b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -115,5 +115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinValue: 1
-  audio: {fileID: 8300000, guid: d5b7635369327264786098748ad543fc, type: 3}
+  audio: {fileID: 8300000, guid: 9f0b017c97e8648408b6b5823d6443ad, type: 3}
+  volume: 0
   coinsCounter: {fileID: 0}

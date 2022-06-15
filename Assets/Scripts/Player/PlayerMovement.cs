@@ -4,103 +4,76 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float movementSpeed = 10f; 
-    [SerializeField] private float dashSpeed = 20f; 
-    
-    protected Rigidbody2D body;
-    protected Animator animator;
+    [Header ("Player Paramenters")]
+    [SerializeField] private float playerSpeed;
 
-    Vector2 movement;
-    bool isFacingRight = true;
+    private Rigidbody2D body;
+    private Animator anim;
 
-    private float activeMovementSpeed;
-    private float dashCounter;
-    private float dashCoolCounter;
-    private float dashLength = 0.3f;
-    private float dashCooldown = 1f;
+    private bool isFacingRight = true;
+    private bool isGrounded;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-
-        activeMovementSpeed = movementSpeed;  
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if(movement.x > 0 && isFacingRight == false)
+        PlayerRun();
+        PlayerAnimations();
+
+        if(Input.GetKey(KeyCode.Space) && isGrounded == true)
         {
-            FlipCharacter();
-        }
-        else if(movement.x < 0 && isFacingRight == true)
-        { 
-            FlipCharacter();
+            PlayerJump();
         }
 
-        DashCharacter();
-    }
-
-    private void FixedUpdate()
-    {
-        MoveCharacter();
-        UpdateAnimations();
-    }
-
-    //Basic Charcter Movement
-    private void MoveCharacter()
-    {   
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        body.MovePosition(body.position + movement * activeMovementSpeed * Time.fixedDeltaTime);
-    }
-
-    //Character Movement Animations
-    private void UpdateAnimations()
-    {
-        if(Mathf.Abs(movement.x) > 0.1f || Mathf.Abs(movement.y) > 0.1f)
+        if(Input.GetAxis("Horizontal") > 0 && isFacingRight == false)
         {
-            animator.SetBool("Run", true);
+            FlipPlayer();
+        }
+        else if(Input.GetAxis("Horizontal") < 0 && isFacingRight == true)
+        {
+            FlipPlayer();
+        }
+        
+    }
+
+    private void PlayerAnimations()
+    {
+        if(Mathf.Abs(Input.GetAxis("Horizontal")) > 0)
+        {
+            anim.SetBool("Run", true);
         }
         else
         {
-            animator.SetBool("Run", false);
+            anim.SetBool("Run", false);
         }
     }
 
-    //Character Flip
-    private void FlipCharacter()
+    private void FlipPlayer()
     {
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
     }
 
-    //Character Dash
-    private void DashCharacter()
+    private void PlayerJump()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            if(dashCoolCounter <= 0 && dashCounter <= 0)
-            {
-                activeMovementSpeed = dashSpeed;
-                dashCounter = dashLength;
-            }
-        }
+        body.velocity = new Vector2(body.velocity.x, playerSpeed);
+        isGrounded = false;
+    }
+    
+    private void PlayerRun()
+    {
+        body.velocity = new Vector2(Input.GetAxis("Horizontal") * playerSpeed, body.velocity.y);
+    } 
 
-        if(dashCounter > 0)
+    private void OnCollisionEnter2D(Collision2D collider)
+    {
+        if(collider.gameObject.tag == "Ground")
         {
-            dashCounter -= Time.deltaTime;
-
-            if(dashCounter <= 0)
-            {
-                activeMovementSpeed = movementSpeed;
-                dashCoolCounter = dashCooldown;
-            }
-        }
-
-        if(dashCoolCounter > 0)
-        {
-            dashCoolCounter -= Time.deltaTime;
+            isGrounded = true;
         }
     }
 }
